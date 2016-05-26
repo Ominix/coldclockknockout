@@ -1,5 +1,10 @@
+html {
+	height: 100%;
+}
+
 body {
 	background-color: black;
+	height: 100%;
 }
 
 h3 {
@@ -37,19 +42,8 @@ JUMBOTRON
 ================================================================================================*/
 
 
-.jumbotron {
-	margin: 0 auto;
-}
 
-.jumbotron img {
-	margin: 0 auto;
-	width: 100%;
-}
 
-#mobleJumbotron {
-	display: none;
-	width: 100%;
-}
 
 #myCarousel {
 	top: 32px;
@@ -61,18 +55,21 @@ JUMBOTRON
 	height: 500px;
 }
 
-#myCarousel h3 {
-	position: absolute;
+/* begin moblie banner*/
+
+.jumbotron {
+	margin: 0 auto;
+	padding: 0;
 }
 
-#bannerWithTitle {
+.jumbotron img {
+	margin: 0 auto;
 	width: 100%;
-	margin: 0 auto;
 }
 
-
-.bannerPosition {
-	margin: 0 auto;
+#mobleJumbotron {
+	display: none;
+	width: 100%;
 }
 
 @media screen and (min-width: 0px) and (max-width: 800px) {
@@ -89,7 +86,19 @@ JUMBOTRON
 
 /*================================================================================================
 
-	
+	Main content on home page
 
 ================================================================================================*/
+
+
+
+
+
+/*================================================================================================
+
+	FOOTER
+
+================================================================================================*/
+
+
 

@@ -67,7 +67,9 @@ JUMBOTRON
 
 #bannerWithTitle {
 	width: 100%;
+	margin: 0 auto;
 }
+
 
 .bannerPosition {
 	margin: 0 auto;

@@ -6,6 +6,8 @@ body {
 	background-color: black;
 	height: 100%;
 	padding: 50px 0px;
+	max-width: 1920px;
+	margin: 0 auto;
 }
 
 
@@ -21,8 +23,8 @@ NAVIGATION
 nav {
 }
 
-.active {
-	border-bottom: 1px solid red;
+.activeNav {
+	
 }
 
 .navbar-inverse .navbar-nav > .active > a{
@@ -105,7 +107,7 @@ JUMBOTRON
 
 
 footer {
+	max-height: 50px;
 	margin: 50px auto 0px auto;
-	float: right;
 }
 

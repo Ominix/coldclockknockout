@@ -50,12 +50,12 @@ JUMBOTRON
 
 
 #myCarousel {
-	max-height: 300px;
+	max-height: 480px;
 }
 
 #myCarousel img {
 	margin: 0 auto;
-	max-height: 300px;
+	max-height: 480px;
 }
 
 /* begin moblie banner*/
@@ -89,13 +89,12 @@ JUMBOTRON
 
 /*================================================================================================
 
-	Main content on home page
+	Nonpoint Photo
 
 ================================================================================================*/
 
-
-.homeBio {
-	background-color: gray;
+.nonpointPhoto{
+	margin-top: 3em;
 }
 
 

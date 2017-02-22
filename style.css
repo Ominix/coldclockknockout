@@ -37,8 +37,19 @@ nav {
 	border-radius: 0px;
 }
 
+.navbar-brand {
+	padding: 0;
+}
 
+#navlogo {
+	height: 100%;
+}
 
+@media screen and (min-width: 801px) {
+	#navlogo {
+		display: none;
+	}
+}
 /*================================================================================================
 
 JUMBOTRON
